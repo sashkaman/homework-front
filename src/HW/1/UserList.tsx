@@ -1,26 +1,3 @@
-// type AddressType = {
-//   street: string; // ПОДПРАВЛЯЕМ any
-//   city: string; // ПОДПРАВЛЯЕМ any
-// };
-
-// type UserType = {
-//   id: number;
-//   name: string;
-//   age: number;
-//   address: AddressType;
-// };
-
-// type UserType = {
-//   props: AddressType
-//   // ПРИДЕТСЯ САМОМУ)
-// };
-
-// type UserListPropsType = {
-//   users: any;
-//   porps: UserType; // ПО МОЕМУ ЧЕГО-ТО НЕ ХВАТАЕТ...
-// };
-// import { UserList } from './HW1'
-
 type AddressType = {
   street: string;
   city: string;
