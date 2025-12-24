@@ -6,6 +6,7 @@ type UserList2PropsType = {
 	filterUsers: () => void; // пропиши типизацию
 };
 
+// onClick = { props.filterUsers }
 export const UserList2 = (props: UserList2PropsType) => {
 	return (
 		<div id={'hw02-users'}>
