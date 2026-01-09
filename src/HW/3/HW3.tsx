@@ -16,9 +16,12 @@ export const HW3 = () => {
     'То, что вы делаете по ночам, то и делает вас богатым. (Аль Капоне)',
   ]);
 
-  const handleChange = (event: 'НУЖНО ПРОТИПИЗИРОВАТЬ') => {
-    // setCurrentText(ЧЕГО-ТО НЕ ХВАТАЕТ);
+  const handleChange = (event: string) => {
+    setCurrentText(currentText);
   };
+  // const handleChange = (event: 'НУЖНО ПРОТИПИЗИРОВАТЬ') => {
+  //   // setCurrentText(ЧЕГО-ТО НЕ ХВАТАЕТ);
+  // };
 
   const handleSave = () => {
     // ЗАСЕТАТЬ БЫ ТЕКСТ В texts И НЕ ПОТЕРЯТЬ НАПУТСТВИЕ ИЗ ПРОШЛОГО ВЕКА)
