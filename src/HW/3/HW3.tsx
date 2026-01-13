@@ -20,9 +20,10 @@ export const HW3 = () => {
   const handleChange = (event: string) => {
     setCurrentText(currentText);
   };
-  // const handleChange = (event: 'НУЖНО ПРОТИПИЗИРОВАТЬ') => {
-  //   // setCurrentText(ЧЕГО-ТО НЕ ХВАТАЕТ);
-  // };
+
+  const handleChange = (event: 'НУЖНО ПРОТИПИЗИРОВАТЬ') => {
+    // setCurrentText(ЧЕГО-ТО НЕ ХВАТАЕТ);
+  };
 
   const handleSave = () => {
     // ЗАСЕТАТЬ БЫ ТЕКСТ В texts И НЕ ПОТЕРЯТЬ НАПУТСТВИЕ ИЗ ПРОШЛОГО ВЕКА)
