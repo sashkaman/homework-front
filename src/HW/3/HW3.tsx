@@ -21,9 +21,9 @@ export const HW3 = () => {
     setCurrentText(currentText);
   };
 
-  const handleChange = (event: 'НУЖНО ПРОТИПИЗИРОВАТЬ') => {
-    // setCurrentText(ЧЕГО-ТО НЕ ХВАТАЕТ);
-  };
+  // const handleChange = (event: 'НУЖНО ПРОТИПИЗИРОВАТЬ') => {
+  //   // setCurrentText(ЧЕГО-ТО НЕ ХВАТАЕТ);
+  // };
 
   const handleSave = () => {
     // ЗАСЕТАТЬ БЫ ТЕКСТ В texts И НЕ ПОТЕРЯТЬ НАПУТСТВИЕ ИЗ ПРОШЛОГО ВЕКА)
@@ -47,12 +47,12 @@ export const HW3 = () => {
       <h1 style={{ marginTop: '50px' }}>СПИСОК ДЕЛ НА ДЕНЬ:</h1>
 
       <ol id={'hw03-tasks'}>
-        {ОТРИСОВАТЬ МАССИВ.map((el, index) => {
+        {texts.map((el, index) => {
           return (
-        <li key={index} id={`hw03-task-${index}`}>
-          {el}
-        </li>
-        );
+            <li key={index} id={`hw03-task-${index}`}>
+              {el}
+            </li>
+          );
         })}
       </ol>
 
